@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-name: mydockeragent
+pool: default
+agent.name: mydockeragent
 #  vmImage: ubuntu-latest
 
 steps:
